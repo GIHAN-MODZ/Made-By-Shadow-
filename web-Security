@@ -1,0 +1,23 @@
+#!/data/data/com.github/root/files/usr/bin/bash
+
+clear
+echo -e "\e[32mStarting DARK SHADOW MODz hacking engine...\e[0m"
+sleep 1
+
+processes=(
+  "Connecting to TARGET SERVER..."
+  "Finding IP address..."
+  "Bypassing security layers..."
+  "Injecting keylogger..."
+  "Accessing admin credentials..."
+  "Extracting database files..."
+  "Attack successful!"
+)
+
+for i in "${processes[@]}"
+do
+  echo -e "\e[32m$i\e[0m"
+  sleep 1
+done
+
+echo -e "\e[31m>> SYSTEM BREACHED <<\e[0m"
